@@ -1,3 +1,1 @@
 # FSJS
-
-ineuron bootcamp
