@@ -9,3 +9,5 @@
 # [CSS Positioning] (https://jayanth456.hashnode.dev/css-positioning)
 
 # [Media Query] (https://jayanth456.hashnode.dev/lets-learn-about-media-query)
+
+# [Understanding CSS Grid] (https://jayanth456.hashnode.dev/understanding-css-grid)
