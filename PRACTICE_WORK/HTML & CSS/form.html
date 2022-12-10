@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1 align="center">FORM TAGS</h1>
+    <form action="#" method="get">
+      <label for="name">USERNAME:</label>
+      <input type="text" name="name" id="name" /><br />
+      <label for="password">PASSWORD:</label>
+      <input type="password" id="password" /><br />
+      <label for="email">EMAIL:</label>
+      <input type="email" name="email" id="email" required /><br />
+      <label for="DOB">DOB</label>
+      <input type="date" name="DOB" id="DOB" /><br />
+      <label for="gender">GENDER:</label>
+      <label for="male">MALE</label>
+      <input type="radio" name="gender" id="male" />
+      <label for="female">FEMALE</label>
+      <input type="radio" name="gender" id="female" /><br />
+      <label for="phno">PHNO:</label>
+      <input type="number" id="phno" name="phno" min="1" /><br />
+      <label for="fruits">LANGUAGES:</label><br />
+      <input type="checkbox" id="fruits" name="fruits" />
+      <label for="fruits">C</label><br />
+      <input type="checkbox" id="fruits" name="fruits" />
+      <label for="fruits">C++</label><br />
+      <input type="checkbox" id="fruits" name="fruits" />
+      <label for="fruits">JAVA</label><br />
+      <label for="cars">CARS:</label>
+      <select name="cars" id="cars">
+        <option value="cars">BMW</option>
+        <option value="cars">FERRARI</option></select
+      ><br />
+      <label for="bio">BIO:</label>
+      <textarea name="bio" id="bio" cols="30" rows="10">
+ADD DESCRIPTION</textarea
+      ><br />
+      <label for="file">FILE:</label>
+      <input type="file" name="file" id="file" /><br />
+      <input type="button" value="submit" />
+      <input type="button" value="Reset" />
+    </form>
+  </body>
+</html>
