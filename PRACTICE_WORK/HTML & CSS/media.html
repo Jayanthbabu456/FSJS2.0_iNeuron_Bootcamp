@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <style>
+      .main {
+        border: 2px solid black;
+        height: 80vh;
+        width: 60vh;
+        background-color: rgb(235, 134, 34);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px auto;
+      }
+      .box1 {
+        border: 2px solid red;
+        background-color: aqua;
+        font-size: 12px;
+        text-align: center;
+        height: 80px;
+        width: 140px;
+        margin: 10px;
+        padding: 10px;
+      }
+      .box2 {
+        border: 2px solid red;
+        background-color: aqua;
+        font-size: 12px;
+        text-align: center;
+        height: 80px;
+        width: 140px;
+        margin: 10px;
+        padding: 10px;
+      }
+      .box3 {
+        border: 2px solid red;
+        background-color: aqua;
+        font-size: 12px;
+        text-align: center;
+        height: 80px;
+        width: 140px;
+        margin: 10px;
+        padding: 10px;
+      }
+      .box4 {
+        border: 2px solid red;
+        background-color: aqua;
+        font-size: 12px;
+        text-align: center;
+        height: 80px;
+        width: 140px;
+        margin: 10px;
+        padding: 10px;
+      }
+      .box5 {
+        border: 2px solid red;
+        background-color: aqua;
+        font-size: 12px;
+        text-align: center;
+        height: 80px;
+        width: 140px;
+        margin: 10px;
+        padding: 10px;
+      }
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+        .box1 {
+          background-color: rgb(183, 136, 227);
+          font-size: 22px;
+          border-radius: 50px;
+        }
+      }
+      @media screen and (min-width: 481px) and (max-width: 768px) {
+        .box2 {
+          background-color: rgb(183, 136, 227);
+          font-size: 22px;
+          border-radius: 50px;
+        }
+      }
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .box3 {
+          background-color: rgb(183, 136, 227);
+          font-size: 22px;
+          border-radius: 50px;
+        }
+      }
+      @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        .box4 {
+          background-color: rgb(183, 136, 227);
+          font-size: 22px;
+          border-radius: 50px;
+        }
+      }
+      @media screen and (min-width: 1201px) and (max-width: 1300px) {
+        .box5 {
+          background-color: rgb(183, 136, 227);
+          font-size: 22px;
+          border-radius: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box1">Mobile phones</div>
+      <div class="box2">ipads,Tablets</div>
+      <div class="box3">small screen laptops</div>
+      <div class="box4">Desktops,large screen laptops</div>
+      <div class="box5">Extra large screen,Tv</div>
+    </div>
+  </body>
+</html>
