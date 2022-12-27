@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ORDER</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .main {
+        border: 2px solid black;
+        padding: 10px;
+        height: 200px;
+        width: 500px;
+        display: flex;
+      }
+      .box {
+        border: 2px dotted rgb(112, 23, 207);
+        border-radius: 10px;
+        text-align: center;
+        font-size: large;
+        padding: 5px;
+        height: 60px;
+        width: 60px;
+        background-color: aquamarine;
+      }
+      #one {
+        order: 3;
+      }
+      #two {
+        order: 4;
+      }
+      #three {
+        order: 1;
+      }
+      #four {
+        order: 2;
+      }
+      #five {
+        order: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box" id="one">1</div>
+      <div class="box" id="two">2</div>
+      <div class="box" id="three">3</div>
+      <div class="box" id="four">4</div>
+      <div class="box" id="five">5</div>
+    </div>
+  </body>
+</html>
