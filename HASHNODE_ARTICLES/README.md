@@ -11,3 +11,5 @@
 # [Media Query] (https://jayanth456.hashnode.dev/lets-learn-about-media-query)
 
 # [Understanding CSS Grid] (https://jayanth456.hashnode.dev/understanding-css-grid)
+
+# [Array Methods in JavaScript] (https://hashnode.com/draft/639dcb87052fc36d4a8f636d)
