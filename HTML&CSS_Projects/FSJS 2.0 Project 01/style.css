@@ -44,6 +44,7 @@ img {
 }
 .list-item {
   color: grey;
+  font-size: 16px;
 }
 .list-item:hover {
   color: black;
@@ -101,5 +102,5 @@ span {
 }
 
 .banner-container > div:nth-child(2) > img {
-  width: 100%;
+  width: 90%;
 }
