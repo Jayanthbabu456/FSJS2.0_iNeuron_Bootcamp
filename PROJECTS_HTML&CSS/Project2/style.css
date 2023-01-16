@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  overflow-y: hidden;
+  height: 90%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #0d0d0d;
+  display: flex;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+
+.navbar > div:nth-child(1) {
+  height: 35px;
+}
+
+.logo {
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.line {
+  height: 46px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin: 0px 4rem;
+}
+
+.grow-list {
+  flex: 1;
+  padding: 1rem;
+}
+
+.list {
+  display: flex;
+  color: #ffffff;
+  gap: 4rem;
+}
+
+.list > .list-item:nth-child(1)::after {
+  content: "v";
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+
+.list-item {
+  list-style-type: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button-small {
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  background-color: #8d3daf;
+  color: #ffffff;
+  font-size: 14px;
+}
+.container > section:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 92vh;
+}
+.hero {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 60%;
+  text-align: center;
+  position: relative;
+  bottom: 5.25rem;
+}
+.hero-heading {
+  font-size: 5rem;
+}
+
+.hero-description {
+  font-size: 1.75rem;
+}
+
+.button-large {
+  font-size: 1.75rem;
+  color: #ffffff;
+  background-color: #8d3daf;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
