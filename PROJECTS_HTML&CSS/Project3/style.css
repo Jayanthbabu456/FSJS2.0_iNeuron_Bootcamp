@@ -1,0 +1,169 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: Orbitron;
+  font-weight: 500;
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.navbar-container div img {
+  width: 130px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+.list-item {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+}
+.list-item:nth-child(1) {
+  order: -4;
+}
+.list-item:nth-child(2) {
+  order: -2;
+}
+.list-item:nth-child(3) {
+  order: -3;
+}
+.list-item:hover {
+  font-size: 20px;
+  font-weight: 700;
+}
+.list-item::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.list-item:hover::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: rgb(18, 17, 17);
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+svg {
+  width: 22px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.button-group {
+  display: flex;
+  align-items: center;
+}
+.nav-button {
+  border: 2px solid black;
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 5px 50px;
+  color: rgb(53, 52, 52);
+  letter-spacing: 0.3px;
+  margin-left: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+.hero-container {
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+}
+.square img {
+  position: absolute;
+  top: 345px;
+  left: 160px;
+  width: 300px;
+}
+.hero-container .star:nth-child(2) img {
+  position: absolute;
+  left: 500px;
+  top: 570px;
+  width: 50px;
+}
+.hero-container .star:nth-child(3) img {
+  position: absolute;
+  right: 40px;
+  top: 80px;
+  width: 60px;
+}
+.globe img {
+  position: absolute;
+  left: 700px;
+  top: 50px;
+  width: 60px;
+}
+.hero-container div img[src="/assets/Image.png"] {
+  position: absolute;
+  width: 400px;
+  top: 100px;
+}
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 500px;
+  top: 150px;
+  gap: 80px;
+}
+.hero-heading {
+  font-size: 60px;
+}
+.hero-description {
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  width: 80%;
+  font-family: poppins;
+}
+.button-email {
+  background-color: white;
+  color: black;
+  padding: 5px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: Orbitron;
+  cursor: pointer;
+}
+.button-join {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-family: Orbitron;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+}
+.contact-heading {
+  padding: 10px;
+  color: gray;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
