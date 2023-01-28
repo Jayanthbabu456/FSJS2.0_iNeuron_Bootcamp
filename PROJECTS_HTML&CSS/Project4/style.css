@@ -21,6 +21,7 @@ nav ul li {
   list-style: none;
   margin-right: 5%;
   font-weight: 500;
+  cursor: pointer;
 }
 main {
   display: flex;
@@ -48,6 +49,7 @@ main {
   border-radius: 10px;
   color: white;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .rightmain {
