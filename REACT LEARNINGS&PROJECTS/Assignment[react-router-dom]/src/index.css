@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: Montserrat;
+}
+.head {
+  background-color: #34495e;
+  color: #ffffff;
+}
+.head ul {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.head ul li {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 16px;
+  cursor: pointer;
+}
+.head ul a {
+  color: #fff;
+  text-decoration: none;
+}
+.head ul li:hover {
+  background-color: #1abc9c;
+  border-radius: 8px;
+}
+.avatar {
+  background-color: #1abc9c;
+  padding: 40px 0;
+}
+.logo {
+  width: 300px;
+  margin: 0 auto;
+}
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 15px 0;
+}
+.star i {
+  color: #ffffff;
+  font-size: 20px;
+}
+.line1 {
+  background-color: #ffffff;
+  height: 4px;
+  width: 15%;
+  border-radius: 10px;
+}
+.line2 {
+  background-color: #ffffff;
+  height: 4px;
+  width: 15%;
+  border-radius: 10px;
+}
+.m {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  padding: 30px 80px;
+  position: relative;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 45%;
+  width: 100%;
+  background-color: #1abc9c;
+  border-radius: 20px 20px 0 0;
+}
+.card .image {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #1abc9c;
+  z-index: 1;
+}
+.card .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  z-index: 1;
+  opacity: 0.7;
+  color: #fff;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.name {
+  color: #1abc9c;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px 0;
+}
+.profession {
+  color: #1abc9c;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.rating {
+  color: goldenrod;
+  display: flex;
+  gap: 4px;
+  padding: 5px;
+}
+.foot {
+  background-color: #34495e;
+  color: #f2f2f2;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  padding: 50px 0;
+}
+.about p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+.a-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  gap: 5px;
+}
+.a-star .line1 {
+  width: 10%;
+  background: #242b2e;
+}
+.a-star .line2 {
+  width: 10%;
+  background: #242b2e;
+}
+
+.txt {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 25px;
+  margin-top: 3%;
+  line-height: 35px;
+}
+.txt p {
+  font-size: 20px;
+}
+
+.contact {
+  padding: 50px 0;
+}
+.contact p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+.c-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  gap: 5px;
+}
+.c-star .line1 {
+  background: #242b2e;
+  width: 20%;
+}
+.c-star .line2 {
+  background: #242b2e;
+  width: 20%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.form input {
+  padding: 15px 0;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border: 1px solid #242b2e;
+  margin-bottom: 10px;
+}
+textarea {
+  padding: 15px 0;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border: 1px solid #242b2e;
+  margin-bottom: 10px;
+}
+.form button {
+  width: 25%;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #242b2e;
+}
+@media screen and (max-width: 720px) {
+  .about p {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .a-star .line1 {
+    width: 15%;
+  }
+  .a-star .line2 {
+    width: 15%;
+  }
+  .txt p {
+    font-size: 18px;
+  }
+  .contact p {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .c-star .line1 {
+    width: 20%;
+  }
+  .c-star .line2 {
+    width: 20%;
+  }
+  .form button {
+    width: 60%;
+  }
+}
