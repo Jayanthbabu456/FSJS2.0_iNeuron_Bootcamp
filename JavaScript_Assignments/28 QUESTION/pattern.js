@@ -23,3 +23,17 @@ const num = 5;
 for (let i = 0; i < num; i++) {
   console.log("*".repeat(num));
 }
+
+// c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+// 	     *
+// 	    ***
+//  	 *****
+
+const number = 3;
+for (let i = 0; i < number; i++) {
+  console.log(
+    " ".repeat(number - i - 1) +
+      "*".repeat(2 * i + 1) +
+      " ".repeat(number - i - 1)
+  );
+}
