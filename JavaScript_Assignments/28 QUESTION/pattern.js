@@ -13,3 +13,13 @@ for (let i = 1; i <= n; i++) {
   }
   console.log(row);
 }
+
+// b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+// 	   ***
+// 	   ***
+// 	   ***
+
+const num = 5;
+for (let i = 0; i < num; i++) {
+  console.log("*".repeat(num));
+}
