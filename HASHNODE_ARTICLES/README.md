@@ -12,4 +12,4 @@
 
 # [Understanding CSS Grid] (https://jayanth456.hashnode.dev/understanding-css-grid)
 
-# [Array Methods in JavaScript] (https://hashnode.com/draft/639dcb87052fc36d4a8f636d)
+# [Array Methods in JavaScript] (https://jayanth456.hashnode.dev/array-methods-in-javascript)
