@@ -1,8 +1,8 @@
 # PROJECT 1
 
-![image](./firstAssignmentImage/task1Output.png)
-
 # TASK-1
+
+![image](./firstAssignmentImage/task1Output.png)
 
 ```javascript
 var unorderList = document.querySelector("ul");
