@@ -14,3 +14,13 @@ var list2 = document.createElement("li");
 list2.innerHTML = '<a href="#">Hire Me</a>';
 unorderList.appendChild(list2);
 ```
+
+# TASK-2
+
+![image](./firstAssignmentImage/task2Output.png)
+
+```javascript
+var input = document.querySelector("input");
+
+input.placeholder = "Search My Project";
+```
