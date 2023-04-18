@@ -24,3 +24,13 @@ var input = document.querySelector("input");
 
 input.placeholder = "Search My Project";
 ```
+
+# TASK-3
+
+![image](./firstAssignmentImage/task3Output.png)
+
+```javascript
+var unorderList = document.querySelector("ul");
+
+unorderList.children[2].innerHTML = "Projects";
+```
