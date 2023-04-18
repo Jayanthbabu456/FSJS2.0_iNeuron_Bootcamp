@@ -34,3 +34,13 @@ var unorderList = document.querySelector("ul");
 
 unorderList.children[2].innerHTML = "Projects";
 ```
+
+# TASK-4
+
+![image](./firstAssignmentImage/task4Output.png)
+
+```javascript
+var image = document.querySelector("img");
+
+image.setAttribute("src", "./image.jpg");
+```
