@@ -44,3 +44,16 @@ var image = document.querySelector("img");
 
 image.setAttribute("src", "./image.jpg");
 ```
+
+# TASK-5
+
+![image](./firstAssignmentImage/task5Output.png)
+
+```javascript
+var buttonDiv = document.getElementsByClassName("hero-right-section-btns");
+
+var button = document.createElement("button");
+button.innerHTML = "Support Me";
+
+buttonDiv[0].appendChild(button);
+```
