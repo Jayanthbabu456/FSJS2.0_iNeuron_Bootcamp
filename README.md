@@ -25,3 +25,7 @@
 #### [PROJECT-11](https://beats-landingpage121.netlify.app/)
 
 #### [PROJECT-12](https://data-analyticspage121.netlify.app/)
+
+## VS CODE CLONE
+
+#### [VS_CODE@LIVE](https://vs-code-clone-tailwindcss.netlify.app/)
