@@ -29,3 +29,7 @@
 ## VS CODE CLONE
 
 #### [VS_CODE@LIVE](https://vs-code-clone-tailwindcss.netlify.app/)
+
+## JAVASCRIPT ASSIGNMENTS
+
+#### [LINK TO ASSIGNMENTS](https://github.com/Jayanthbabu456/FSJS2.0_iNeuron_Bootcamp/tree/main/JavaScript_Assignments)
