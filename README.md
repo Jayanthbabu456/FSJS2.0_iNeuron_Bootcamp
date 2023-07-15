@@ -33,3 +33,7 @@
 ## JAVASCRIPT ASSIGNMENTS
 
 #### [LINK TO ASSIGNMENTS](https://github.com/Jayanthbabu456/FSJS2.0_iNeuron_Bootcamp/tree/main/JavaScript_Assignments)
+
+## DOM ASSIGNMENTS
+
+#### [LINK TO ASSIGNMENTS](https://github.com/Jayanthbabu456/FSJS2.0_iNeuron_Bootcamp/tree/main/DOM_ASSIGNMENTS)
