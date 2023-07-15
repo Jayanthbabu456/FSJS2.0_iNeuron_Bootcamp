@@ -37,3 +37,7 @@
 ## DOM ASSIGNMENTS
 
 #### [LINK TO ASSIGNMENTS](https://github.com/Jayanthbabu456/FSJS2.0_iNeuron_Bootcamp/tree/main/DOM_ASSIGNMENTS)
+
+## REACT ASSIGNMENTS
+
+#### [LINK TO ASSIGNMENTS](https://github.com/Jayanthbabu456/FSJS2.0_iNeuron_Bootcamp/tree/main/REACT%20LEARNINGS%26PROJECTS)
