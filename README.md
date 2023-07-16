@@ -1,5 +1,9 @@
 # FSJS
 
+## HASHNODE ARTICLES
+
+#### [LINK TO ARTICLES](https://github.com/Jayanthbabu456/FSJS2.0_iNeuron_Bootcamp/tree/main/HASHNODE_ARTICLES)
+
 ## HTML AND CSS ASSIGNMENTS
 
 #### [PROJECT-1](https://seomaster123.netlify.app/)
